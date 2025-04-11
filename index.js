@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(express.json())
 app.use(cors({
-    origin: "http://localhost:4200", // Replace with your frontend URL
+    origin: "https://astounding-pika-e99c47.netlify.app", // Replace with your frontend URL
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization"
   }));
